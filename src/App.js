@@ -203,6 +203,7 @@ function App() {
         {times.map((time, indice) => <Time key={indice} time={time} colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)} />)}
       </section>
       <Rodape />
+      <div>s</div>
     </div>
   );
 }
